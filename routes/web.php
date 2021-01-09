@@ -3,8 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\TodoController;
-//use App\Http\Controllers\MemberController;
-//use App\Http\Controllers\Members;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,9 +20,11 @@ Route::get('/', function () {
 });
 
 //my todo project
-// Route::post('todo',[TodoController::class,'addData']);
+Route::post('todo',[TodoController::class,'addData']);
 Route::get('todo',[TodoController::class,'list']);
 Route::get('delete/{id}',[TodoController::class,'delete']);
 Route::get('edit/{id}',[TodoController::class,'showData']);
 Route::post('edit',[TodoController::class,'update']);
+
+
 

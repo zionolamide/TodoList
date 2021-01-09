@@ -38,13 +38,6 @@
                                         
                 </tbody>
             </table>
-            
-    
-
-        
-    
-  
-
 </div>
     <div class="form-container">
         <form action="todo"  method="POST" class="form-horizontal" style="margin-top: 20px;width: 61%;" >
